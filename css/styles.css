@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+
+}
+body{
+background-image: url("img/back2.jpg");
+background-color: #defef1 ;
+background-repeat: no-repeat; 
+background-size: cover;
+}
+#header-nav {
+  background-color: #3aafa9;
+  border-radius: 0;
+  border-bottom: 2px solid black;
+}
+
+#nav-list li a {
+text-align: center;
+font-family: Arial;   
+text-decoration:none;
+padding: .2em 1em;
+color: white;
+margin: 5px 0;
+}
+
+#Sign{
+  border:2px solid white;
+  border-radius:10px; 
+}
+
+#nav-list li a:hover{
+  color:#3aafa9;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#profile1{
+  display: block;
+  margin-top:20px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+/*border: 10px solid #3aafa9;
+  border-radius: 10px;*/
+  box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.4), 0 10px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+#content1{
+  text-align: center;
+}
+#content1 h1,h2{
+  margin: 7px 0;
+  color: #17252a;
+  font-family: 'Great Vibes', cursive;
+  /*color: #236b69;
+  font-family: 'Raleway', sans-serif;*/
+  /*font-family: 'Playfair Display', serif;*/
+  font-size: 9vw;
+}
+#container2{
+  height: 550px;
+}
+
+
+
+footer{
+  height: auto;
+  background-color: #f2f2f2;
+  text-align: center;
+  border-top: 2px solid #17252a;
+}
+.social-media {
+    margin-top:10px;
+}
+.social-media a{
+
+  color: #001a21;
+  margin: 25px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
+}
+
+.social-media a:hover{
+  color: #fc5c65;
+}
+.copy-text{
+  padding: 10px;
+}
+.navbar-toggle{
+  background-color: white;
+  border-color: black;
+}
+.navbar-toggle:hover,
+.navbar-toggle:focus{
+  background-color: black;
+}
